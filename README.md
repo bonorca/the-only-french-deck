@@ -10,16 +10,16 @@
 ## 下载与导入
 
 1. 安装官方最新版 Anki
-2. 到 [Releases 页面](https://github.com/chillibeaver/the-only-tcf-deck/releases/latest) 下载 `.apkg` 文件。
-3. 在 Anki 里打开它，或者点「文件 → 导入」，就会出现「你唯一需要的TCF法语卡组」。
-4. 想在多台设备上学，就登录 [AnkiWeb](https://ankiweb.net/) 同步。第一次同步要上传几千个发音文件，可能需要一段时间。
+2. 到 [Releases 页面](https://github.com/chillibeaver/the-only-tcf-deck/releases/latest) 下载 `.apkg` 文件
+3. 在 Anki 里打开它，或者点「文件 → 导入」
+4. 想在多台设备上学，就登录 [AnkiWeb](https://ankiweb.net/) 同步。第一次同步要上传几千个发音文件，可能需要一段时间
 
 ## 反馈问题
 
 发现发音、释义、例句或者阴阳性数有错，或希望添加新的高频词汇, 欢迎反馈：
 
 - 直接点击卡片最下方的`反馈这张卡`按钮。
-- 也可以到 [Issues](https://github.com/chillibeaver/the-only-tcf-deck/issues) 新建。
+- 或者直接到 [Issues](https://github.com/chillibeaver/the-only-tcf-deck/issues) 新建。
 
 ## 更新卡组
 
