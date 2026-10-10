@@ -1,0 +1,38 @@
+name: 卡片反馈
+description: 某张卡的发音、释义、例句或阴阳性数有问题
+title: "[卡片反馈] 「」"
+body:
+  - type: input
+    id: word
+    attributes:
+      label: 单词
+      description: 卡片上的法语单词
+      placeholder: 例如 falloir
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 问题类型
+      multiple: true
+      options:
+        - 发音
+        - 释义
+        - 例句
+        - 阴阳性 / 单复数
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 哪里有问题
+      description: 请写具体一点，最好附上正确的写法或读法
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 卡组版本
+      description: 不知道可以不填
+      placeholder: v1.0

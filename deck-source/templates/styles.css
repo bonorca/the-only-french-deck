@@ -1,0 +1,45 @@
+.card {
+  font-family: tahoma, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: #4a4a4a;
+  background-color: white;
+}
+a { color: #496899; }
+p { margin: 0.3em; }
+
+/* part of speech */
+gr { color: gray; font-size: 0.5em; }
+
+/* gender colours: masculine, feminine, both */
+blue { color: #6755f2; }
+red { color: #f25555; }
+purple { color: #c655f2; }
+.night_mode blue { color: #80aaff; }
+.night_mode red { color: #ff8080; }
+#exs { font-size: 30px; }
+#exs { margin-top: 50px !important; }
+#exs b { font-weight: normal; }
+#exs br { display: none; }
+#exs i { display: block; margin-top: 0.15em; }
+#exs i:not(:last-child) { margin-bottom: 0.9em; }
+
+/* adjective forms: masculine | feminine, singular row above plural row */
+table.adj { margin: 0 auto; border-collapse: collapse; font-size: 0.8em; }
+table.adj td { padding: 0 0.45em; line-height: 1.25; }
+table.adj tr.sg td { font-weight: bold; }
+table.adj tr.pl td { font-size: 0.72em; opacity: 0.8; }
+table.adj td.m { color: #6755f2; }
+table.adj td.f { color: #f25555; }
+table.adj td.mf { color: #c655f2; }
+table.adj .bv, table.adj .inv { font-size: 0.6em; font-weight: normal; color: gray; }
+table.adj .ipa { font-size: 0.85em; color: gray; }
+table.adj + br { display: none; }
+.night_mode table.adj td.m { color: #80aaff; }
+.night_mode table.adj td.f { color: #ff8080; }
+@media (max-width: 500px) { table.adj { font-size: 0.62em; } table.adj.long { font-size: 0.52em; } table.adj.xlong { font-size: 0.44em; } }
+
+/* feedback link */
+#fb { margin-top: 1.6em; font-size: 14px; }
+#fb a { color: #aaa; text-decoration: none; }
+
