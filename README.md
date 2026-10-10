@@ -1,9 +1,12 @@
 # The Only TCF Deck · 你唯一需要的 TCF 法语卡组
 
-面向 TCF Canada 备考的 Anki 法语词汇卡组：**6674 个常用词，每个词都有发音、中文释义和带中文翻译的例句**。
+这是一个 Anki 法语词汇卡组：**6674 个常用词，每个词都有发音、中文释义和带中文翻译的例句**。
 
 
-![卡片背面示例](docs/screenshot.png)
+<img width="550" height="468" alt="image" src="https://github.com/user-attachments/assets/65172b1c-bd35-4516-b0c3-e6265dcd3c8d" />
+<img width="550" height="468" alt="image" src="https://github.com/user-attachments/assets/fc507a35-b55d-4a45-8ac1-5e6f7ef40e55" />
+
+
 
 **[⬇ 下载最新版](https://github.com/chillibeaver/the-only-tcf-deck/releases/latest)**　·　[反馈问题](https://github.com/chillibeaver/the-only-tcf-deck/issues)
 
