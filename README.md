@@ -5,7 +5,7 @@
 <img width="380" height="350" alt="image" src="https://github.com/user-attachments/assets/65172b1c-bd35-4516-b0c3-e6265dcd3c8d" />
 <img width="380" height="350" alt="image" src="https://github.com/user-attachments/assets/fc507a35-b55d-4a45-8ac1-5e6f7ef40e55" />
 
-**[下载](https://github.com/chillibeaver/the-only-tcf-deck/releases/latest)**　·　[反馈](https://github.com/chillibeaver/the-only-tcf-deck/issues)
+[下载](https://github.com/chillibeaver/the-only-tcf-deck/releases/latest)　·　[反馈](https://github.com/chillibeaver/the-only-tcf-deck/issues)
 
 ## 下载与导入
 
