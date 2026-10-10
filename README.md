@@ -2,7 +2,6 @@
 
 面向 TCF Canada 备考的 Anki 法语词汇卡组：**6674 个常用词，每个词都有发音、中文释义和带中文翻译的例句**。
 
-*An Anki deck of 6,674 French words for TCF Canada, with audio, Chinese meanings and example sentences translated into Chinese.*
 
 ![卡片背面示例](docs/screenshot.png)
 
