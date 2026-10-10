@@ -13,7 +13,7 @@
   var a = document.getElementById("fb-link"), w = document.getElementById("fb-word");
   if (!a || !w) return;
   var word = w.textContent.trim(), version = "v1.0";
-  var title = "[卡片反馈] 「" + word + "」";
+  var title = "[卡片反馈]:" + word;
   var body = "### 卡片信息\n- 卡组版本: " + version + "\n- 单词: " + word +
              "\n\n### 哪里有问题\n（发音 / 释义 / 例句 / 阴阳性数 / 其他，请写具体一点）\n";
   a.href = "https://github.com/chillibeaver/the-only-tcf-deck/issues/new?title=" + encodeURIComponent(title) + "&body=" + encodeURIComponent(body);

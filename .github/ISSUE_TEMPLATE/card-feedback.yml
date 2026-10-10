@@ -1,6 +1,6 @@
 name: 卡片反馈
 description: 某张卡的发音、释义、例句或阴阳性数有问题
-title: "[卡片反馈] 「」"
+title: "[卡片反馈]:"
 body:
   - type: input
     id: word
