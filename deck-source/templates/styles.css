@@ -43,3 +43,8 @@ table.adj + br { display: none; }
 #fb { margin-top: 1.6em; font-size: 14px; }
 #fb a { color: #aaa; text-decoration: none; }
 
+/* part-of-speech labels on cards that are both a noun and an adjective */
+.pos { font-size: 15px; color: gray; font-style: italic; font-weight: normal; }
+.pos.ghost { visibility: hidden; }
+table.adj td.pos { vertical-align: middle; padding: 0 0.3em; }
+
