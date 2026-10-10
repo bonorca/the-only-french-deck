@@ -7,7 +7,6 @@
 <img width="550" height="468" alt="image" src="https://github.com/user-attachments/assets/fc507a35-b55d-4a45-8ac1-5e6f7ef40e55" />
 
 
-
 **[⬇ 下载最新版](https://github.com/chillibeaver/the-only-tcf-deck/releases/latest)**　·　[反馈问题](https://github.com/chillibeaver/the-only-tcf-deck/issues)
 
 ## 卡片内容
@@ -26,31 +25,18 @@
 
 ## 下载与导入
 
-1. 安装官方最新版 Anki：
-   - 电脑：[Anki 官网](https://apps.ankiweb.net/)
-   - Android：[AnkiDroid](https://play.google.com/store/apps/details?id=com.ichi2.anki)
-   - iPhone / iPad：[AnkiMobile](https://apps.apple.com/app/ankimobile-flashcards/id373493387)
+1. 安装官方最新版 Anki
 2. 到 [Releases 页面](https://github.com/chillibeaver/the-only-tcf-deck/releases/latest) 下载 `.apkg` 文件。
 3. 在 Anki 里打开它，或者点「文件 → 导入」，就会出现「你唯一需要的TCF法语卡组」。
 4. 想在多台设备上学，就登录 [AnkiWeb](https://ankiweb.net/) 同步。第一次同步要上传几千个发音文件，可能需要一段时间。
 
 ## 反馈问题
 
-发现发音、释义、例句或者阴阳性数有错，欢迎反馈：
+发现发音、释义、例句或者阴阳性数有错，或希望添加新的高频词汇, 欢迎反馈：
 
-- **最方便**：在卡片背面最下方点「**反馈这张卡**」。会打开一个已经填好单词和卡组版本的 Issue 页面，你只要写哪里有问题。
-- 也可以直接到 [Issues](https://github.com/chillibeaver/the-only-tcf-deck/issues) 新建。
+- 直接点击卡片最下方的`反馈这张卡`按钮。
+- 也可以到 [Issues](https://github.com/chillibeaver/the-only-tcf-deck/issues) 新建。
 
 ## 更新卡组
 
 有新版本时，下载新的 `.apkg` 直接导入就行。Anki 会认出是同一批卡，只更新内容，**你的学习进度不受影响**。
-
-## 仓库里有什么
-
-| 路径 | 内容 |
-|------|------|
-| `deck-source/notes.csv` | 所有卡片的文字内容，每行一个词，从 Anki 直接导出 |
-| `deck-source/templates/` | 卡片正面、背面模板和样式 |
-| Releases | 可以直接导入的 `.apkg` 卡组文件（含全部发音） |
-
-每次更新都能在提交记录里看到改了哪些词。
