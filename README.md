@@ -1,6 +1,6 @@
-# The Only TCF Deck · 你唯一需要的 TCF 法语卡组
+# 你唯一需要的 TCF 法语卡组
 
-这是一个 Anki 法语词汇卡组：**6674 个常用词，每个词都有发音、中文释义和带中文翻译的例句**。
+虽然标题是TCF,但这其实是一个通用 Anki 法语词汇卡组：包含**6500+常用词，每个词都有发音、中文释义和带中文翻译的例句**。
 
 
 <img width="550" height="468" alt="image" src="https://github.com/user-attachments/assets/65172b1c-bd35-4516-b0c3-e6265dcd3c8d" />
