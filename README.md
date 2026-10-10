@@ -3,8 +3,8 @@
 虽然标题是TCF,但这其实是一个通用 Anki 法语词汇卡组：包含**6500+常用词，每个词都有发音、中文释义和带中文翻译的例句**。
 
 
-<img width="550" height="468" alt="image" src="https://github.com/user-attachments/assets/65172b1c-bd35-4516-b0c3-e6265dcd3c8d" />
-<img width="550" height="468" alt="image" src="https://github.com/user-attachments/assets/fc507a35-b55d-4a45-8ac1-5e6f7ef40e55" />
+<img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/65172b1c-bd35-4516-b0c3-e6265dcd3c8d" />
+<img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/fc507a35-b55d-4a45-8ac1-5e6f7ef40e55" />
 
 
 **[⬇ 下载最新版](https://github.com/chillibeaver/the-only-tcf-deck/releases/latest)**　·　[反馈问题](https://github.com/chillibeaver/the-only-tcf-deck/issues)
