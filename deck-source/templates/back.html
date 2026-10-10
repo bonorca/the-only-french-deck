@@ -1,10 +1,22 @@
-{{Word with article}}{{#IPA}}<div id="ipa">{{IPA}}</div>{{/IPA}}<br>
-{{audio}}
-<p>
-<div id="basicm">{{Basic meanings of word}}</div>
+<div class="hd"><div class="hw">{{Word with article}}</div><div class="sub">{{#IPA}}<span class="ipa">{{IPA}}</span>{{/IPA}}{{audio}}</div></div>
+{{Basic meanings of word}}
 {{#Example sentences}}
-<div id="exs" style="margin-top:0.8em">{{Example sentences}}</div>
+<div id="exs"><div class="h">例句</div>{{Example sentences}}</div>
 {{/Example sentences}}
+<!-- play buttons for the forms -->
+<script>
+(function () {
+  var svg = '<svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="29"></circle><path d="M56.502,32.301l-37.502,20.101l0.329,-40.804l37.173,20.703Z"></path></svg>';
+  var list = document.querySelectorAll("audio.say");
+  for (var i = 0; i < list.length; i++) (function (a) {
+    if (a.nextSibling && a.nextSibling.className === "say") return;
+    var b = document.createElement("a");
+    b.className = "say"; b.href = "#"; b.innerHTML = svg;
+    b.onclick = function (e) { e.preventDefault(); try { a.currentTime = 0; } catch (x) {} a.play(); };
+    a.parentNode.insertBefore(b, a.nextSibling);
+  })(list[i]);
+})();
+</script>
 <!-- feedback link -->
 <div id="fb"><a id="fb-link" href="https://github.com/chillibeaver/the-only-tcf-deck/issues/new">反馈这张卡</a></div>
 <span id="fb-word" hidden>{{text:Word}}</span>

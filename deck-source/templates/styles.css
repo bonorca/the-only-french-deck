@@ -1,54 +1,77 @@
-.card {
-  font-family: tahoma, sans-serif;
-  font-size: 40px;
-  text-align: center;
-  color: #4a4a4a;
-  background-color: white;
-}
+.card { font-family: "Segoe UI", tahoma, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 20px; text-align: center; color: #333; background-color: #fff; }
+.night_mode.card, .night_mode .card, .nightMode.card { background-color: #1e1e1e; color: #ddd; }
 a { color: #496899; }
-p { margin: 0.3em; }
 
-/* part of speech */
-gr { color: gray; font-size: 0.5em; }
+/* gender colours: masculine, feminine, same form for both */
+.m, blue { color: #5b4ae0; } .f, red { color: #e64a4a; } .mf, purple { color: #b44ae0; }
+.night_mode .m, .night_mode blue { color: #8fa8ff; } .night_mode .f, .night_mode red { color: #ff8a8a; } .night_mode .mf, .night_mode purple { color: #d78aff; }
+gr { color: gray; font-size: 0.7em; }
 
-/* gender colours: masculine, feminine, both */
-blue { color: #6755f2; }
-red { color: #f25555; }
-purple { color: #c655f2; }
-.night_mode blue { color: #80aaff; }
-.night_mode red { color: #ff8080; }
-#exs { font-size: 30px; }
-#exs { margin-top: 50px !important; }
-#exs b { font-weight: normal; }
-#exs br { display: none; }
-#exs i { display: block; margin-top: 0.15em; }
-#exs i:not(:last-child) { margin-bottom: 0.9em; }
+/* headword, phonetics, play button */
+.hd { margin: 6px 0 14px; }
+.hw { font-size: 40px; font-weight: bold; line-height: 1.15; }
+.hw .art { font-weight: normal; opacity: 0.75; }
+.sub { margin-top: 4px; color: #999; font-size: 20px; }
+.sub .ipa { font-family: "Segoe UI", "Lucida Sans Unicode", "Noto Sans", "Arial Unicode MS", sans-serif; vertical-align: middle; }
+.sub .replay-button { vertical-align: middle; margin-left: 6px; }
+.sub .replay-button svg { width: 30px; height: 30px; }
 
-/* adjective forms: masculine | feminine, singular row above plural row */
-table.adj { margin: 0 auto; border-collapse: collapse; font-size: 0.8em; }
-table.adj td { padding: 0 0.45em; line-height: 1.25; }
-table.adj tr.sg td { font-weight: bold; }
-table.adj tr.pl td { font-size: 0.72em; opacity: 0.8; }
-table.adj td.m { color: #6755f2; }
-table.adj td.f { color: #f25555; }
-table.adj td.mf { color: #c655f2; }
-table.adj .bv, table.adj .inv { font-size: 0.6em; font-weight: normal; color: gray; }
-table.adj .ipa { font-size: 0.85em; color: gray; }
-table.adj + br { display: none; }
-.night_mode table.adj td.m { color: #80aaff; }
-.night_mode table.adj td.f { color: #ff8080; }
-@media (max-width: 500px) { table.adj { font-size: 0.62em; } table.adj.long { font-size: 0.52em; } table.adj.xlong { font-size: 0.44em; } }
+/* one box with a part for each part of speech */
+.sec { max-width: 520px; margin: 10px auto; padding: 10px 16px 14px; background: #f6f6fa; border-radius: 12px; text-align: left; }
+.night_mode .sec { background: #2a2a30; }
+.pos { display: inline-block; font-size: 14px; color: #888; background: #fff; border: 1px solid #ddd; border-radius: 10px; padding: 1px 9px; margin-bottom: 6px; }
+.night_mode .pos { background: #1e1e1e; border-color: #444; color: #aaa; }
+.forms { font-size: 22px; font-weight: bold; margin: 2px 0 4px; }
+.forms .pl { font-weight: normal; font-size: 0.82em; opacity: 0.8; display: inline-block; }
+.forms .sep { color: #bbb; font-weight: normal; margin: 0 6px; }
+.mean { font-size: 22px; font-weight: bold; color: #333; line-height: 1.45; }
+.night_mode .mean { color: #e6e6e6; }
+.sec .note { font-size: 16px; color: #888; margin-top: 3px; line-height: 1.45; }
+.sec .rule { border-top: 1px solid #e3e3ea; margin: 10px 0 8px; }
+.night_mode .sec .rule { border-top-color: #3a3a42; }
+.bv, .forms .ipa, table.g .ipa { font-size: 0.6em; color: #999; font-weight: normal; }
+
+/* masculine | feminine forms, singular row above plural row */
+table.g { border-collapse: collapse; margin: 2px 0; font-size: 22px; width: 100%; table-layout: fixed; }
+table.g col { width: 50%; }
+table.g th { font-size: 12px; font-weight: normal; color: #aaa; text-align: left; padding: 0 22px 2px 0; }
+table.g td { padding: 1px 22px 1px 0; font-weight: bold; text-align: left; overflow-wrap: anywhere; }
+table.g tr.pl td { font-weight: normal; font-size: 0.82em; opacity: 0.8; }
+.cf { max-width: 520px; margin: 4px auto 0; font-size: 16px; color: #888; text-align: left; padding: 0 16px; line-height: 1.45; }
+
+/* examples: French with the word in bold, Chinese below */
+#exs { max-width: 520px; margin: 22px auto 0; text-align: left; font-size: 20px; padding: 0 4px; }
+#exs .h { font-size: 13px; color: #aaa; text-align: center; margin-bottom: 2px; letter-spacing: 1px; }
+#exs .x { margin-top: 12px; padding: 0 0 0 14px; border-left: 3px solid #cfcdf2; }
+#exs .fr { color: #333; line-height: 1.4; }
+#exs .fr b { font-weight: bold; }
+#exs .zh { color: #888; font-size: 16px; margin-top: 3px; line-height: 1.45; }
+.night_mode #exs .fr { color: #ddd; } .night_mode #exs .x { border-left-color: #5d5b96; }
+
+/* front: headword only, no article, no gender colour */
+.front { margin-top: 70px; }
+.front .hw { font-size: 46px; }
+.front .hw .art { display: none; }
+.front .hw .m, .front .hw .f, .front .hw .mf { color: inherit; }
+.front .replay-button { display: block; margin: 18px auto 0; width: fit-content; }
+.front .replay-button svg { width: 46px; height: 46px; }
+
+/* small play button after a form (made from the hidden <audio class="say">) */
+audio.say { display: none; }
+a.say { display: inline-flex; vertical-align: -3px; margin-left: 5px; cursor: pointer; text-decoration: none; }
+a.say svg { width: 19px; height: 19px; }
+a.say svg circle { fill: #fff; stroke: #c8c8d4; stroke-width: 3; } a.say svg path { fill: #8a8aa0; }
+.night_mode a.say svg circle { fill: #2a2a30; stroke: #55556a; } .night_mode a.say svg path { fill: #aaaac0; }
+/* the before-vowel form on its own small line under the masculine, so both columns stay level */
+table.g td { vertical-align: top; }
+table.g .bv { display: block; font-size: 13px; margin-top: -1px; line-height: 1.3; }
+
+@media (max-width: 500px) {
+  .hw { font-size: 34px; } .forms, .mean, table.g { font-size: 19px; } #exs { font-size: 18px; } #exs .zh { font-size: 15px; }
+  table.g td, table.g th { padding-right: 14px; } .sec { padding: 9px 12px 12px; }
+}
 
 /* feedback link */
 #fb { margin-top: 1.6em; font-size: 14px; }
 #fb a { color: #aaa; text-decoration: none; }
-
-/* part-of-speech labels on cards that are both a noun and an adjective */
-.pos { font-size: 15px; color: gray; font-style: italic; font-weight: normal; }
-.pos.ghost { visibility: hidden; }
-table.adj td.pos { vertical-align: middle; padding: 0 0.3em; }
-
-/* phonetic transcription under the word */
-#ipa { font-family: "Segoe UI", "Lucida Sans Unicode", "Noto Sans", "Arial Unicode MS", sans-serif; font-size: 22px; color: #888; margin: 0.15em 0 0.1em; }
-#ipa + br { display: none; }
 
