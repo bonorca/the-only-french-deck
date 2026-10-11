@@ -2,7 +2,7 @@
 
 # 你唯一需要的 TCF 法语卡组
 
-虽然标题是TCF,但这其实是一个通用 Anki 法语词汇卡组：包含**6500+常用词，每个词都有发音、中文释义和带中文翻译的例句**。
+虽然标题是TCF,但这其实是一个通用 Anki 法语词汇卡组：包含**6600+常用词，每个词都有发音、中文释义和带中文翻译的例句**。
 
 <img width="300" alt="名词卡：chat" src="./docs/chat.png" />
 <img width="300" alt="形容词卡：délicieux" src="./docs/delicieux.png" />
