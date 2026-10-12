@@ -2,14 +2,35 @@
 
 # 你唯一需要的 TCF 法语卡组
 
-虽然标题是TCF,但这其实是一个通用 Anki 法语词汇卡组：包含**6600+常用词，每个词都有发音、中文释义和带中文翻译的例句**。
+虽然标题是TCF,但这其实是一个通用 Anki 法语词汇卡组：包含**6900+常用词（按 A1–C1 分级），每个词都有发音、中文释义和带中文翻译的例句**。
 
-<img width="300" alt="名词卡：chat" src="./docs/chat.png" />
-<img width="300" alt="形容词卡：délicieux" src="./docs/delicieux.png" />
+<img width="300" alt="名词卡：maison" src="./docs/maison.png" />
+<img width="300" alt="形容词卡：petit" src="./docs/petit.png" />
 
-[下载](https://github.com/chillibeaver/the-only-tcf-deck/releases/latest)　·　[反馈](https://github.com/chillibeaver/the-only-tcf-deck/issues)
+[下载](https://github.com/chillibeaver/the-only-french-deck/releases/latest)　·　[反馈](https://github.com/chillibeaver/the-only-french-deck/issues)
 
 </div>
+
+## 卡组介绍
+
+### 词汇
+
+1. **收词**：合并以下三个来源，去重后约 7800 个词
+   - Wiktionary 的 [OpenSubtitles Top 20K](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/French/OpenSubtitles_Top_20K) 法语词频表：把变位、阴阳性、单复数等形式归并为原形后，按词频取前 5000 个
+   - CLE 教材中 A1–B2 的单词
+   - [FLELex](https://cental.uclouvain.be/cefrlex/flelex/) 分级词表中 A1–B1 的全部词，以及 B2 的常见词
+2. **筛词**：删去俚语、粗俗用语和过于口语化的词，以及专有名词、品牌、专业术语、冷僻物件、古雅的文学词等不太可能出现在 TCF 考试中的词，共删去约 900 个
+3. **分级**：参考 FLELex 的等级和 [Lexique 3](https://www.lexique.org/) 的词频给每个词定级，分成 A1–C1 五个子卡组：
+
+   | 等级 | A1 | A2 | B1 | B2 | C1 |
+   |---|---|---|---|---|---|
+   | 词数 | 812 | 1370 | 2207 | 2094 | 463 |
+
+最终组成了目前的 6900+ 词汇。根据各个网站以及自己当年学习英语的经验，6900+ 词汇应付 B2 应该绰绰有余。卡片释义刻意只放了常见释义，当然如果有遗漏欢迎提 issue。
+
+### 音频
+
+卡组音频全部由 Google 的 Chirp 3 HD 生成，共 1.2 万多个，经过 4 轮全库校对：每个音频都用 4 个语音识别模型转写，再和卡上的音标逐个比对；读错的按音标强制重新合成，最终仍拿不准的由人工试听。
 
 ## 下载与导入
 
@@ -28,3 +49,7 @@
 ## 更新卡组
 
 有新版本时，下载新的 `.apkg` 直接导入就行，学习进度不受影响。
+
+## 致谢
+
+FLELex 由 UCLouvain CENTAL 制作，按 CC BY-NC-SA 4.0 许可使用。
