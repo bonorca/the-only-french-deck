@@ -35,4 +35,4 @@ body:
     attributes:
       label: 卡组版本
       description: 非必填
-      placeholder: v1.0
+      placeholder: "002"
