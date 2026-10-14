@@ -7,6 +7,8 @@
 <img width="300" alt="名词卡：maison" src="./docs/maison.png" />
 <img width="300" alt="形容词卡：petit" src="./docs/petit.png" />
 
+[![AnkiWeb](https://img.shields.io/badge/AnkiWeb-%E5%85%B1%E4%BA%AB%E5%8D%A1%E7%BB%84-235390?style=for-the-badge&logo=anki&logoColor=white)](https://ankiweb.net/shared/info/1773194732)
+
 [下载](https://github.com/chillibeaver/the-only-french-deck/releases/latest)　·　[反馈](https://github.com/chillibeaver/the-only-french-deck/issues)
 
 </div>
