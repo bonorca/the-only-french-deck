@@ -75,3 +75,37 @@ table.g .bv { display: block; font-size: 13px; margin-top: -1px; line-height: 1.
 #fb { margin-top: 1.6em; font-size: 14px; }
 #fb a { color: #aaa; text-decoration: none; }
 
+/* conjugation: a hairline with 变位 under the examples; tapping it opens one tinted block per tense */
+#conj { max-width: 520px; margin: 22px auto 0; padding: 0 4px; text-align: left; }
+#conj > summary { list-style: none; cursor: pointer; user-select: none; -webkit-user-select: none; display: flex; align-items: center; gap: 12px;
+  font-size: 13px; color: #aaa; letter-spacing: 1px; }
+#conj > summary::-webkit-details-marker { display: none; }
+#conj > summary::before, #conj > summary::after { content: ""; flex: 1; height: 1px; background: #e6e6ee; }
+#conj > summary span::after { content: ""; display: inline-block; width: 5px; height: 5px; margin-left: 7px; vertical-align: 3px;
+  border-right: 1.5px solid #bbb; border-bottom: 1.5px solid #bbb; transform: rotate(45deg); }
+#conj[open] > summary span::after { transform: rotate(-135deg); vertical-align: 0; }
+.cj { display: flex; justify-content: center; gap: 8px 44px; padding: 14px 4px 2px; }
+.cj { flex-wrap: wrap; }   /* the right column drops below when the two do not fit side by side */
+.cj .col:first-child { flex: 0 0 auto; } .cj .col:last-child { flex: 0 1 auto; min-width: 0; max-width: 250px; }
+.cj .tb + .tb { margin-top: 16px; }
+.cj .tb .pos { margin-bottom: 7px; }   /* tense names use the deck's part-of-speech pill */
+table.cjl { border-collapse: collapse; }
+table.cjl td { padding: 1px 0; font-size: 19px; font-weight: bold; line-height: 1.45; white-space: nowrap; }
+table.cjl td.p { font-weight: normal; color: #aaa; text-align: right; padding-right: 0.32em; }
+table.cjl td.p.el { padding-right: 0; }
+table.cjl td.no { font-weight: normal; color: #ccc; }
+.cj .pc { font-size: 19px; font-weight: bold; line-height: 1.45; }
+.cj .pc + .pc { margin-top: 10px; }
+.cj .pc .a { font-weight: normal; color: #aaa; }
+.cj .pc.none { font-size: 15px; font-weight: normal; color: #aaa; }
+.cj .nt { font-size: 13px; font-weight: normal; color: #999; line-height: 1.45; margin-top: 1px; }
+.night_mode #conj > summary { color: #888; } .night_mode #conj > summary::before, .night_mode #conj > summary::after { background: #3a3a42; }
+.night_mode table.cjl td.p, .night_mode .cj .pc .a { color: #888; } .night_mode .cj .nt { color: #999; }
+.cj { gap: 12px; align-items: flex-start; padding-top: 12px; }
+.cj .col { display: flex; flex-direction: column; gap: 12px; }
+.cj .tb { background: #f6f6fa; border-radius: 12px; padding: 10px 16px 12px; }
+.cj .tb + .tb { margin-top: 0; }
+.night_mode .cj .tb { background: #2a2a30; }
+@media (max-width: 500px) { .cj { gap: 10px; } .cj .tb { padding: 9px 12px 11px; } table.cjl td, .cj .pc { font-size: 17px; } }
+@media (max-width: 340px) { .cj { flex-direction: column; gap: 10px; align-items: stretch; } .cj .col:last-child { max-width: none; } }
+
