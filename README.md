@@ -2,16 +2,15 @@
 
 # 你唯一需要的 TCF 法语卡组
 
-虽然标题是TCF,但这其实是一个通用 Anki 法语词汇卡组：包含**6900+常用词（按 A1–C1 分级），每个词都有发音、中文释义和带中文翻译的例句**。
-</br>
+### **试图打造最好的中文法语卡组**
+
+虽然标题是 TCF，但这其实是一个内容丰富的通用 Anki 法语词汇卡组<br>
+包含 **6900+ 常用词**（按 **A1–C1 分级**），每个词都有**发音、中文释义、带中文翻译的例句、动词变位**
+
+[![下载](https://img.shields.io/badge/Releases-%E4%B8%8B%E8%BD%BD-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chillibeaver/the-only-french-deck/releases/latest)
 [![AnkiWeb](https://img.shields.io/badge/AnkiWeb-%E5%8D%A1%E7%BB%84-235390?style=for-the-badge&logo=anki&logoColor=white)](https://ankiweb.net/shared/info/1773194732)
 
-<img width="300" alt="名词卡：maison" src="./docs/maison.png" />
-<img width="300" alt="形容词卡：petit" src="./docs/petit.png" />
-
-
-
-[下载](https://github.com/chillibeaver/the-only-french-deck/releases/latest)　·　[反馈](https://github.com/chillibeaver/the-only-french-deck/issues)
+<img width="300" alt="名词卡：maison" src="./docs/maison.png" />&nbsp;&nbsp;&nbsp;<img width="300" alt="形容词卡：petit" src="./docs/petit.png" />
 
 </div>
 
@@ -39,9 +38,11 @@
 ## 下载与导入
 
 1. 安装官方最新版 Anki
-2. 到 [Releases 页面](https://github.com/chillibeaver/the-only-french-deck/releases/latest) 下载 `.apkg` 文件，也可以在 [AnkiWeb](https://ankiweb.net/shared/info/1773194732) 上直接下载
+2. 到 [Releases 页面](https://github.com/chillibeaver/the-only-french-deck/releases/latest) 下载 `.apkg` 文件，也可以在 [AnkiWeb](https://ankiweb.net/shared/info/1773194732) 上直接下载*
 3. 在 Anki 里打开它，或者点「文件 → 导入」
 4. 想在多台设备上学，就登录 [AnkiWeb](https://ankiweb.net/) 同步。第一次同步要上传几千个发音文件，可能需要一段时间
+
+注*: Ankiweb的更新通常会稍慢于Github
 
 ## 反馈问题
 
