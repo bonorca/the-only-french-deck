@@ -5,8 +5,9 @@
 虽然标题是 TCF，但这其实是一个内容丰富的通用 Anki 法语词汇卡组<br>
 包含 **6900+ 常用词**（按 **A1–C1 分级**），每个词都有**发音、中文释义、带中文翻译的例句、动词变位**
 
-[![下载](https://img.shields.io/badge/Releases-%E4%B8%8B%E8%BD%BD-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chillibeaver/the-only-french-deck/releases/latest)
-[![AnkiWeb](https://img.shields.io/badge/AnkiWeb-%E5%8D%A1%E7%BB%84-235390?style=for-the-badge&logo=anki&logoColor=white)](https://ankiweb.net/shared/info/1773194732)
+[![下载](https://img.shields.io/badge/Releases-%E4%B8%8B%E8%BD%BD-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chillibeaver/the-only-french-deck/releases/latest)&nbsp;&nbsp;
+[![AnkiWeb](https://img.shields.io/badge/AnkiWeb-%E5%8D%A1%E7%BB%84-235390?style=for-the-badge&logo=anki&logoColor=white)](https://ankiweb.net/shared/info/1773194732)&nbsp;&nbsp;
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E8%B5%9E%E5%8A%A9-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/chillibeaver)
 
 <img width="300" alt="名词卡：maison" src="./docs/maison.png" />&nbsp;&nbsp;&nbsp;<img width="300" alt="形容词卡：petit" src="./docs/petit.png" />
 
