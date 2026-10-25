@@ -32,16 +32,16 @@
 
 ### 音频
 
-卡组音频全部由 Google 的 Chirp 3 HD 生成，共 1.2 万多个，经过多轮全库校对：每个音频都用 4 个语音识别模型转写，再和卡上的音标逐个比对；读错的按音标强制重新合成，最终由人工试听。
+卡组音频全部由 Google 的 Gemini 3.8 Flash TTS 生成，包括 1.2 万多个单词和词形发音，以及 1.28 万句例句发音。全部音频都经过三轮全库校对：用多个语音识别模型转写，再和卡上的文字、音标逐个比对；读错的重新生成，拿不准的由人工试听。
 
 ## 下载与导入
 
 1. 安装官方最新版 Anki
 2. 到 [Releases 页面](https://github.com/chillibeaver/the-only-french-deck/releases/latest) 下载 `.apkg` 文件，也可以在 [AnkiWeb](https://ankiweb.net/shared/info/1773194732) 上直接下载*
 3. 在 Anki 里打开它，或者点「文件 → 导入」
-4. 想在多台设备上学，就登录 [AnkiWeb](https://ankiweb.net/) 同步。第一次同步要上传几千个发音文件，可能需要一段时间
+4. 想在多台设备上学，就登录 [AnkiWeb](https://ankiweb.net/) 同步。第一次同步要上传两万多个发音文件，可能需要一段时间
 
-注*: Ankiweb的更新通常会稍慢于Github
+注*: AnkiWeb 只允许 250 MB 以内的共享卡组，所以 AnkiWeb 版不带例句发音，想听例句请从 Releases 下载。另外 AnkiWeb 的更新通常会稍慢于 GitHub
 
 ## 反馈问题
 
