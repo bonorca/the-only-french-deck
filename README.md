@@ -36,12 +36,13 @@
 
 ## 下载与导入
 
+> [!IMPORTANT]
+> **AnkiWeb 版没有例句发音。** AnkiWeb 只允许 250 MB 以内的共享卡组，带例句发音的完整版放不上去。想听例句，请从 [Releases 页面](https://github.com/chillibeaver/the-only-french-deck/releases/latest) 下载。
+
 1. 安装官方最新版 Anki
-2. 到 [Releases 页面](https://github.com/chillibeaver/the-only-french-deck/releases/latest) 下载 `.apkg` 文件，也可以在 [AnkiWeb](https://ankiweb.net/shared/info/1773194732) 上直接下载*
+2. 到 [Releases 页面](https://github.com/chillibeaver/the-only-french-deck/releases/latest) 下载 `.apkg` 文件，也可以在 [AnkiWeb](https://ankiweb.net/shared/info/1773194732) 上直接下载（没有例句发音，更新也通常稍慢于 GitHub）
 3. 在 Anki 里打开它，或者点「文件 → 导入」
 4. 想在多台设备上学，就登录 [AnkiWeb](https://ankiweb.net/) 同步。第一次同步要上传两万多个发音文件，可能需要一段时间
-
-注*: AnkiWeb 只允许 250 MB 以内的共享卡组，所以 AnkiWeb 版不带例句发音，想听例句请从 Releases 下载。另外 AnkiWeb 的更新通常会稍慢于 GitHub
 
 ## 反馈问题
 
