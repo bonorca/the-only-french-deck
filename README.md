@@ -3,7 +3,7 @@
 # 你唯一需要的 TCF 法语卡组
 
 虽然标题是 TCF，但这其实是一个内容丰富的通用 Anki 法语词汇卡组<br>
-包含 **6900+ 常用词**（按 **A1–C1 分级**），每个词都有**发音、中文释义、带中文翻译的例句、动词变位**
+包含 **6900+ 常用词**（按 **A1–C1 分级**），每个词都有**发音、中文释义、例句、例句发音、动词变位**
 
 [![下载](https://img.shields.io/badge/Releases-%E4%B8%8B%E8%BD%BD-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chillibeaver/the-only-french-deck/releases/latest)&nbsp;&nbsp;
 [![AnkiWeb](https://img.shields.io/badge/AnkiWeb-%E5%8D%A1%E7%BB%84-235390?style=for-the-badge&logo=anki&logoColor=white)](https://ankiweb.net/shared/info/1773194732)&nbsp;&nbsp;
@@ -32,15 +32,15 @@
 
 ### 音频
 
-卡组音频全部由 Google 的 Gemini 3.8 Flash TTS 生成，包括 1.2 万多个单词和词形发音，以及 1.28 万句例句发音。全部音频都经过三轮全库校对：用多个语音识别模型转写，再和卡上的文字、音标逐个比对；读错的重新生成，拿不准的由人工试听。
+卡组音频全部由 Google 的 Gemini 3.8 Flash TTS 生成，包括 1.2 万多个单词和词形发音，以及 1.28 万句例句发音。全部音频都经过三轮全库校对：用多个语音识别模型转写，再和卡上的文字、音标逐个比对；读错的重新生成，最终的由人工试听。
 
 ## 下载与导入
 
 > [!IMPORTANT]
-> **AnkiWeb 版没有例句发音。** AnkiWeb 只允许 250 MB 以内的共享卡组，带例句发音的完整版放不上去。想听例句，请从 [Releases 页面](https://github.com/chillibeaver/the-only-french-deck/releases/latest) 下载。
+> **AnkiWeb 版没有例句发音。** AnkiWeb 只允许最大 250 MB 的共享卡组，带例句发音的完整版请从 [Releases 页面](https://github.com/chillibeaver/the-only-french-deck/releases/latest) 下载。
 
 1. 安装官方最新版 Anki
-2. 到 [Releases 页面](https://github.com/chillibeaver/the-only-french-deck/releases/latest) 下载 `.apkg` 文件，也可以在 [AnkiWeb](https://ankiweb.net/shared/info/1773194732) 上直接下载（没有例句发音，更新也通常稍慢于 GitHub）
+2. 到 [Releases 页面](https://github.com/chillibeaver/the-only-french-deck/releases/latest) 下载 `.apkg` 文件，也可以在 [AnkiWeb](https://ankiweb.net/shared/info/1773194732) 上直接下载(无例句发音)
 3. 在 Anki 里打开它，或者点「文件 → 导入」
 4. 想在多台设备上学，就登录 [AnkiWeb](https://ankiweb.net/) 同步。第一次同步要上传两万多个发音文件，可能需要一段时间
 
