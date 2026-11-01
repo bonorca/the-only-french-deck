@@ -37,12 +37,14 @@
 ## 下载与导入
 
 > [!IMPORTANT]
-> **AnkiWeb 版没有例句发音。** AnkiWeb 只允许最大 250 MB 的共享卡组，带例句发音的完整版请从 [Releases 页面](https://github.com/bonorca/the-only-french-deck/releases/latest) 下载。
+> **AnkiWeb 版没有例句发音。** 其只允许最大 250 MB 的共享卡组，带例句发音的完整版请从 [Releases 页面](https://github.com/bonorca/the-only-french-deck/releases/latest) 下载。
 
 1. 安装官方最新版 Anki
 2. 到 [Releases 页面](https://github.com/bonorca/the-only-french-deck/releases/latest) 下载 `.apkg` 文件，也可以在 [AnkiWeb](https://ankiweb.net/shared/info/1773194732) 上直接下载(无例句发音)
-3. 在 Anki 里打开它，或者点「文件 → 导入」
-4. 想在多台设备上学，就登录 [AnkiWeb](https://ankiweb.net/) 同步。第一次同步要上传两万多个发音文件，可能需要一段时间
+3. 在 Anki 里打开，或者点「文件 → 导入」
+4. 可登录 [AnkiWeb](https://ankiweb.net/) 同步。第一次同步要上传两万多个发音文件，可能需要一段时间
+
+Anki的操作说明可参考[egg rolls的配置图](https://github.com/5mdld/anki-jlpt-decks#%E7%89%8C%E7%BB%84%E9%80%89%E9%A1%B9)
 
 ## 反馈问题
 
