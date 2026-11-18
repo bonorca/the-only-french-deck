@@ -1071,7 +1071,6 @@ champignon	le champignon	/ʃɑ̃piɲɔ̃/	CECR::A2 n
 champion	champion	/ʃɑ̃pjɔ̃/	CECR::A2 n
 championnat	le championnat	/ʃɑ̃pjɔna/	CECR::B1 n
 chance	la chance	/ʃɑ̃s/	CECR::A1 n
-chancelier	chancelier	/ʃɑ̃səlje/	CECR::C1 n
 chanceux	chanceux	/ʃɑ̃sø/	adj CECR::B1
 chandelle	la chandelle	/ʃɑ̃dɛl/	CECR::B2 n
 change	le change	/ʃɑ̃ʒ/	CECR::B1 n
@@ -1249,7 +1248,6 @@ cocher	cocher	/kɔʃe/	CECR::A2 v
 cochon	le cochon	/kɔʃɔ̃/	CECR::A2 n
 cocktail	le cocktail	/kɔktɛl/	CECR::B1 n
 cocotte	la cocotte	/kɔkɔt/	CECR::B2 n
-cocotte-minute	la cocotte-minute	/kɔkɔtminyt/	CECR::B2 n
 code	le code	/kɔd/	CECR::A2 n
 coffre	le coffre	/kɔfʁ/	CECR::B1 n
 coffret	le coffret	/kɔfʁɛ/	CECR::B2 n
@@ -1338,7 +1336,6 @@ compagnie	la compagnie	/kɔ̃paɲi/	CECR::A2 n
 compagnon	compagnon	/kɔ̃paɲɔ̃/	CECR::B1 n
 comparable	comparable	/kɔ̃paʁabl/	adj CECR::B2
 comparaison	la comparaison	/kɔ̃paʁɛzɔ̃/	CECR::B1 n
-comparaître	comparaître	/kɔ̃paʁɛtʁ/	CECR::C1 v
 comparer	comparer	/kɔ̃paʁe/	CECR::A2 v
 compartiment	le compartiment	/kɔ̃paʁtimɑ̃/	CECR::B2 n
 compassion	la compassion	/kɔ̃pasjɔ̃/	CECR::B2 n
@@ -1384,7 +1381,6 @@ compétition	la compétition	/kɔ̃petisjɔ̃/	CECR::B1 n
 comté	le comté	/kɔ̃te/	CECR::B2 n
 comédie	la comédie	/kɔmedi/	CECR::A2 n
 comédien	comédien	/kɔmedjɛ̃/	CECR::A2 n
-con	con	/kɔ̃/	adj CECR::B2 n
 concentration	la concentration	/kɔ̃sɑ̃tʁasjɔ̃/	CECR::B1 n
 concentrer	concentrer	/kɔ̃sɑ̃tʁe/	CECR::B1 v
 concentré	concentré	/kɔ̃sɑ̃tʁe/	adj CECR::B1 n
@@ -1604,7 +1600,6 @@ coup	le coup	/ku/	CECR::A2 n
 coup de théâtre	le coup de théâtre	/ku də teatʁ/	CECR::C1 n
 coupable	coupable	/kupabl/	adj CECR::B1 n
 coupe	la coupe	/kup/	CECR::A2 n
-coupe-ongles	le coupe-ongles	/kupɔ̃ɡl/	CECR::B1 n
 couper	couper	/kupe/	CECR::A2 v
 couper-coller	le couper-coller	/kupekɔle/	CECR::B1 n
 couple	le couple	/kupl/	CECR::A2 n
@@ -2748,7 +2743,6 @@ fournisseur	le fournisseur	/fuʁnisœʁ/	CECR::B1 n
 fourniture	la fourniture	/fuʁnityʁ/	CECR::B1 n
 fourrer	fourrer	/fuʁe/	CECR::B2 v
 fourrure	la fourrure	/fuʁyʁ/	CECR::B2 n
-foutre	foutre	/futʁ/	CECR::B2 v
 foyer	le foyer	/fwaje/	CECR::B1 n
 fraction	la fraction	/fʁaksjɔ̃/	CECR::B2 n
 fracture	la fracture	/fʁaktyʁ/	CECR::B1 n
@@ -3158,7 +3152,6 @@ image	l'image	/imaʒ/	CECR::A2 n
 imaginaire	imaginaire	/imaʒinɛʁ/	adj CECR::B2
 imagination	l'imagination	/imaʒinasjɔ̃/	CECR::B1 n
 imaginer	imaginer	/imaʒine/	CECR::A2 v
-imbécile	imbécile	/ɛ̃besil/	adj CECR::B2 n
 imitation	l'imitation	/imitasjɔ̃/	CECR::B2 n
 imiter	imiter	/imite/	CECR::B1 v
 immangeable	immangeable	/ɛ̃mɑ̃ʒabl/	adj CECR::B2
@@ -3806,7 +3799,6 @@ mascotte	la mascotte	/maskɔt/	CECR::B2 n
 masculin	masculin	/maskylɛ̃/	adj CECR::A2
 masque	le masque	/mask/	CECR::A2 n
 masquer	masquer	/maske/	CECR::B2 v
-massacrant	massacrant	/masakʁɑ̃/	adj CECR::C1
 massacre	le massacre	/masakʁ/	CECR::B2 n
 massacrer	massacrer	/masakʁe/	CECR::B2 v
 massage	le massage	/masaʒ/	CECR::A2 n
@@ -3866,13 +3858,11 @@ menu	le menu	/məny/	CECR::A1 n
 mer	la mer	/mɛʁ/	CECR::A1 n
 merci	merci	/mɛʁsi/	CECR::A1 int
 mercredi	le mercredi	/mɛʁkʁədi/	CECR::A1 n
-merder	merder	/mɛʁde/	CECR::C1 v
 merveille	la merveille	/mɛʁvɛj/	CECR::B1 n
 merveilleux	merveilleux	/mɛʁvɛjø/	adj CECR::A2
 mesquin	mesquin	/mɛskɛ̃/	adj CECR::C1
 message	le message	/mɛsaʒ/	CECR::A1 n
 messagerie	la messagerie	/mesaʒʁi/	CECR::B1 n
-messe	la messe	/mɛs/	CECR::B1 n
 mesure	la mesure	/məzyʁ/	CECR::B1 n
 mesurer	mesurer	/məzyʁe/	CECR::A2 v
 mesuré	mesuré	/məzyʁe/	adj CECR::C1
@@ -3921,7 +3911,6 @@ minute	la minute	/minyt/	CECR::A1 n
 minutieux	minutieux	/minysjø/	adj CECR::C1
 minéral	minéral	/mineʁal/	adj CECR::A2
 miracle	le miracle	/miʁakl/	CECR::B1 n
-mire	la mire	/miʁ/	CECR::C1 n
 miroir	le miroir	/miʁwaʁ/	CECR::A2 n
 mise	la mise	/miz/	CECR::B1 n
 mise en scène	la mise en scène	/mizɑ̃ sɛn/	CECR::B1 n
@@ -4341,13 +4330,11 @@ outré	outré	/utʁe/	adj CECR::C1
 ouvert	ouvert	/uvɛʁ/	adj CECR::A1
 ouverture	l'ouverture	/uvɛʁtyʁ/	CECR::A2 n
 ouvrage	l'ouvrage	/uvʁaʒ/	CECR::B2 n
-ouvre-boîte	l'ouvre-boîte	/uvʁəbwat/	CECR::B1 n
 ouvrier	ouvrier	/uvʁije/	CECR::A2 n
 ouvrir	ouvrir	/uvʁiʁ/	CECR::A1 v
 ouïe	l'ouïe	/wi/	CECR::B2 n
 ovale	ovale	/ɔval/	adj CECR::B1
 ovation	l'ovation	/ɔvasjɔ̃/	CECR::C1 n
-ovationner	ovationner	/ɔvasjɔne/	CECR::C1 v
 oxygène	l'oxygène	/ɔksiʒɛn/	CECR::B1 n
 ozone	l'ozone	/ozon/	CECR::B2 n
 où	où	/u/	adv CECR::A1
@@ -4524,7 +4511,6 @@ pensée	la pensée	/pɑ̃se/	CECR::B1 n
 pente	la pente	/pɑ̃t/	CECR::B1 n
 perception	la perception	/pɛʁsɛpsjɔ̃/	CECR::C1 n
 percer	percer	/pɛʁse/	CECR::B2 v
-perceuse	la perceuse	/pɛʁsøz/	CECR::B2 n
 percevoir	percevoir	/pɛʁsəvwaʁ/	CECR::B2 v
 percuter	percuter	/pɛʁkyte/	CECR::B2 v
 perdant	perdant	/pɛʁdɑ̃/	CECR::B1 n
@@ -4940,7 +4926,6 @@ précisément	précisément	/pʁesizemɑ̃/	adv CECR::B1
 précédent	précédent	/pʁesedɑ̃/	adj CECR::B1 n
 précéder	précéder	/pʁesede/	CECR::B2 v
 prédire	prédire	/pʁediʁ/	CECR::B2 v
-préfecture	la préfecture	/pʁefɛktyʁ/	CECR::B1 n
 préférable	préférable	/pʁefeʁabl/	adj CECR::B1
 préférence	la préférence	/pʁefeʁɑ̃s/	CECR::B1 n
 préférer	préférer	/pʁefeʁe/	CECR::A1 v
@@ -5792,7 +5777,6 @@ serrure	la serrure	/sɛʁyʁ/	CECR::B1 n
 serrurier	serrurier	/sɛʁyʁje/	CECR::B2 n
 serré	serré	/sɛʁe/	adj CECR::B1
 serveur	serveur	/sɛʁvœʁ/	CECR::A1 n
-serviabilité	la serviabilité	/sɛʁvjabilite/	CECR::C1 n
 serviable	serviable	/sɛʁvjabl/	adj CECR::B1
 service	le service	/sɛʁvis/	CECR::A1 n
 serviette	la serviette	/sɛʁvjɛt/	CECR::A2 n
@@ -6075,7 +6059,6 @@ supprimer	supprimer	/sypʁime/	CECR::B1 v
 suprême	suprême	/sypʁɛm/	adj CECR::B2
 supérieur	supérieur	/sypeʁjœʁ/	adj CECR::B1 n
 sur	sur	/syʁ/	CECR::A1 prep
-surexposé	surexposé	/syʁɛkspoze/	adj CECR::C1
 surf	le surf	/sœʁf/	CECR::A2 n
 surface	la surface	/syʁfas/	CECR::B1 n
 surfer	surfer	/sœʁfe/	CECR::A2 v
@@ -6335,7 +6318,6 @@ toxique	toxique	/tɔksik/	adj CECR::B2
 trac	le trac	/tʁak/	CECR::B2 n
 trace	la trace	/tʁas/	CECR::B1 n
 tracer	tracer	/tʁase/	CECR::B2 v
-traceur	le traceur	/tʁasœʁ/	CECR::C1 n
 tradition	la tradition	/tʁadisjɔ̃/	CECR::A2 n
 traditionnel	traditionnel	/tʁadisjɔnɛl/	adj CECR::A2
 traditionnellement	traditionnellement	/tʁadisjɔnɛlmɑ̃/	adv CECR::B1
@@ -6460,7 +6442,6 @@ télé	la télé	/tele/	abbr CECR::A1 n
 téléchargement	le téléchargement	/teleʃaʁʒəmɑ̃/	CECR::A2 n
 télécharger	télécharger	/teleʃaʁʒe/	CECR::A2 v
 télécommande	la télécommande	/telekɔmɑ̃d/	CECR::A2 n
-télécopie	la télécopie	/telekɔpi/	CECR::B2 n
 téléfilm	le téléfilm	/telefilm/	CECR::B1 n
 téléphone	le téléphone	/telefɔn/	CECR::A1 n
 téléphoner	téléphoner	/telefɔne/	CECR::A1 v
