@@ -488,6 +488,7 @@ attirer	attirer	/atiʁe/	CECR::B1 v
 attitude	l'attitude	/atityd/	CECR::B1 n
 attraction	l'attraction	/atʁaksjɔ̃/	CECR::B1 n
 attraper	attraper	/atʁape/	CECR::A2 v
+attrayant	attrayant	/atʁɛjɑ̃/	adj CECR::B2
 attribuer	attribuer	/atʁibɥe/	CECR::B2 v
 attrister	attrister	/atʁiste/	CECR::B2 v
 atténuer	atténuer	/atenɥe/	CECR::B2 v
@@ -548,6 +549,7 @@ avancer	avancer	/avɑ̃se/	CECR::A2 v
 avancé	avancé	/avɑ̃se/	adj CECR::B1
 avancée	l'avancée	/avɑ̃se/	CECR::B2 n
 avant	avant	/avɑ̃/	adv CECR::A1 prep
+avant que	avant que	/avɑ̃ kə/	CECR::B1 conj
 avant-bras	l'avant-bras	/avɑ̃bʁa/	CECR::B2 n
 avant-garde	l'avant-garde	/avɑ̃ɡaʁd/	CECR::B2 n
 avantage	l'avantage	/avɑ̃taʒ/	CECR::A2 n
@@ -686,6 +688,7 @@ bibliothèque	la bibliothèque	/biblijɔtɛk/	CECR::A1 n
 bibliothécaire	le / la bibliothécaire	/biblijɔtekɛʁ/	CECR::A2 n
 bicyclette	la bicyclette	/bisiklɛt/	CECR::A2 n
 bien	bien	/bjɛ̃/	adv CECR::A1 n
+bien que	bien que	/bjɛ̃ kə/	CECR::B1 conj
 bien à vous	bien à vous	/bjɛ̃ na vu/	CECR::B1 loc
 bien-aimé	bien-aimé	/bjɛ̃nɛme/	adj CECR::B2 n
 bienfaisance	la bienfaisance	/bjɛ̃fəzɑ̃s/	CECR::C1 n
@@ -3514,6 +3517,7 @@ jury	le jury	/ʒyʁi/	CECR::B1 n
 juré	juré	/ʒyʁe/	CECR::B2 n
 jus	le jus	/ʒy/	CECR::A1 n
 jusqu'à	jusqu'à	/ʒyska/	CECR::A1 prep
+jusqu'à ce que	jusqu'à ce que	/ʒyska sə kə/	CECR::B1 conj
 juste	juste	/ʒyst/	adj adv CECR::A1
 justement	justement	/ʒystəmɑ̃/	adv CECR::B1
 justice	la justice	/ʒystis/	CECR::B1 n
@@ -4756,6 +4760,7 @@ pouls	le pouls	/pu/	CECR::B1 n
 poumon	le poumon	/pumɔ̃/	CECR::B1 n
 poupée	la poupée	/pupe/	CECR::A2 n
 pour	pour	/puʁ/	CECR::A1 prep
+pour que	pour que	/puʁ kə/	CECR::B1 conj
 pourboire	le pourboire	/puʁbwaʁ/	CECR::A2 n
 pourcentage	le pourcentage	/puʁsɑ̃taʒ/	CECR::B1 n
 pourparlers	les pourparlers	/puʁpaʁle/	CECR::C1 n
@@ -4764,6 +4769,7 @@ pourrir	pourrir	/puʁiʁ/	CECR::B2 v
 poursuite	la poursuite	/puʁsɥit/	CECR::B2 n
 poursuivre	poursuivre	/puʁsɥivʁ/	CECR::B1 v
 pourtant	pourtant	/puʁtɑ̃/	adv CECR::B1
+pourvu que	pourvu que	/puʁvy kə/	CECR::B1 conj
 pousser	pousser	/puse/	CECR::A2 v
 poussin	le poussin	/pusɛ̃/	CECR::B1 n
 poussière	la poussière	/pusjɛʁ/	CECR::B1 n
@@ -6689,9 +6695,11 @@ zone	la zone	/zon/	CECR::A2 n
 zoo	le zoo	/zo/	CECR::A2 n
 zéro	zéro	/zeʁo/	CECR::A1 num
 à	à	/a/	CECR::A1 prep
+à condition que	à condition que	/a kɔ̃disjɔ̃ kə/	CECR::B1 conj
 à contrecœur	à contrecœur	/a kɔ̃tʁəkœʁ/	CECR::C1 loc
 à demi-mot	à demi-mot	/a dəmimo/	CECR::C1 loc
 à l'improviste	à l'improviste	/a lɛ̃pʁɔvist/	CECR::B2 loc
+à moins que	à moins que	/a mwɛ̃ kə/	CECR::B1 conj
 à plus tard	à plus tard	/a ply taʁ/	CECR::A1 int
 à verse	à verse	/a vɛʁs/	CECR::B2 loc
 âge	l'âge	/aʒ/	CECR::A1 n
