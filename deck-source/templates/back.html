@@ -34,3 +34,13 @@
   a.href = "https://github.com/bonorca/the-only-french-deck/issues/new?title=" + encodeURIComponent(title) + "&body=" + encodeURIComponent(body);
 })();
 </script>
+<!-- conjugation: open by default (and flagged) only when something in it is irregular -->
+<script>
+(function () {
+  var cj = document.getElementById("conj");
+  if (!cj || !cj.querySelector(".irr, .tbx, .cjx") || cj.querySelector(".cj-irr")) return;
+  cj.open = true;
+  var f = document.createElement("i"); f.className = "cj-irr"; f.textContent = " · 不规则";
+  cj.querySelector("summary span").appendChild(f);
+})();
+</script>

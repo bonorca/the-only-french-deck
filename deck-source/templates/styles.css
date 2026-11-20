@@ -99,6 +99,17 @@ table.cjl td.no { font-weight: normal; color: #ccc; }
 .cj .pc .a { font-weight: normal; color: #aaa; }
 .cj .pc.none { font-size: 15px; font-weight: normal; color: #aaa; }
 .cj .nt { font-size: 13px; font-weight: normal; color: #999; line-height: 1.45; margin-top: 1px; }
+/* irregular forms: a single odd form in orange; a box that has to be learnt whole (a fully irregular 现在时, and the
+   「(其他)不规则形式」 section with forms that cannot be derived) on a light orange tint; « · 不规则 » on the header */
+.cj .irr { color: #e07800; }
+.night_mode .cj .irr { color: #ffae4d; }
+.cj .tb.tbx, .cjx .cj .tb { background: #fcf0e2; }
+.night_mode .cj .tb.tbx, .night_mode .cjx .cj .tb { background: #3a2e20; }
+.cjx { margin-top: 18px; }
+.cjx-h { font-size: 12px; color: #aaa; text-align: center; letter-spacing: 1px; }
+.cjx .cj { padding-top: 8px; }
+#conj .cj-irr { font-style: normal; color: #e07800; }
+.night_mode #conj .cj-irr { color: #ffae4d; }
 .night_mode #conj > summary { color: #888; } .night_mode #conj > summary::before, .night_mode #conj > summary::after { background: #3a3a42; }
 .night_mode table.cjl td.p, .night_mode .cj .pc .a { color: #888; } .night_mode .cj .nt { color: #999; }
 .cj { gap: 12px; align-items: flex-start; padding-top: 12px; }
