@@ -109,3 +109,10 @@ table.cjl td.no { font-weight: normal; color: #ccc; }
 @media (max-width: 500px) { .cj { gap: 10px; } .cj .tb { padding: 9px 12px 11px; } table.cjl td, .cj .pc { font-size: 17px; } }
 @media (max-width: 340px) { .cj { flex-direction: column; gap: 10px; align-items: stretch; } .cj .col:last-child { max-width: none; } }
 
+/* one meaning per line: the template splits a meaning line at top-level « ； » */
+.mean .sn { display: block; position: relative; padding-left: 16px; }
+.mean .sn + .sn { margin-top: 6px; }
+.mean .sn::before { content: ""; position: absolute; left: 2px; top: 0.62em; width: 6px; height: 6px; border-radius: 50%; background: #c9c5ee; }
+.night_mode .mean .sn::before { background: #5a568f; }
+.cf .sn, .note .sn { display: block; }
+.cf .sn + .sn, .note .sn + .sn { margin-top: 3px; }
