@@ -18,6 +18,23 @@
     b.onclick = function (e) { e.preventDefault(); try { a.currentTime = 0; } catch (x) {} a.play(); };
     a.parentNode.insertBefore(b, a.nextSibling);
   })(list[i]);
+
+  /* one meaning per line: split at « ； » outside brackets and tags */
+  var ms = document.querySelectorAll(".sec .mean, .sec .note, .cf");
+  for (var k = 0; k < ms.length; k++) {
+    var el = ms[k]; if (el.getAttribute("data-split")) continue; el.setAttribute("data-split", "1");
+    var h = el.innerHTML, parts = [], cur = "", depth = 0, tag = false;
+    for (var j = 0; j < h.length; j++) {
+      var c = h.charAt(j);
+      if (c === "<") tag = true; else if (c === ">") tag = false;
+      else if (!tag && (c === "（" || c === "(")) depth++;
+      else if (!tag && (c === "）" || c === ")")) depth = Math.max(0, depth - 1);
+      if (!tag && depth === 0 && c === "；") { parts.push(cur); cur = ""; continue; }
+      cur += c;
+    }
+    parts.push(cur);
+    if (parts.length > 1) el.innerHTML = parts.map(function (p) { return '<span class="sn">' + p.trim() + "</span>"; }).join("");
+  }
 })();
 </script>
 <!-- feedback link -->
