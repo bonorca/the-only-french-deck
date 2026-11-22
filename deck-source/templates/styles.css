@@ -114,5 +114,5 @@ table.cjl td.no { font-weight: normal; color: #ccc; }
 .mean .sn + .sn { margin-top: 6px; }
 .mean .sn::before { content: ""; position: absolute; left: 2px; top: 0.62em; width: 6px; height: 6px; border-radius: 50%; background: #c9c5ee; }
 .night_mode .mean .sn::before { background: #5a568f; }
-.cf .sn, .note .sn { display: block; }
-.cf .sn + .sn, .note .sn + .sn { margin-top: 3px; }
+.note .sn { display: block; }
+.note .sn + .sn { margin-top: 3px; }

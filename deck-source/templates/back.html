@@ -19,8 +19,8 @@
     a.parentNode.insertBefore(b, a.nextSibling);
   })(list[i]);
 
-  /* one meaning per line: split at « ； » outside brackets and tags */
-  var ms = document.querySelectorAll(".sec .mean, .sec .note, .cf");
+  /* one meaning per line: split at « ； » outside brackets and tags (not the cf. line) */
+  var ms = document.querySelectorAll(".sec .mean, .sec .note");
   for (var k = 0; k < ms.length; k++) {
     var el = ms[k]; if (el.getAttribute("data-split")) continue; el.setAttribute("data-split", "1");
     var h = el.innerHTML, parts = [], cur = "", depth = 0, tag = false;
